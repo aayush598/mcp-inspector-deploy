@@ -8,7 +8,7 @@ WORKDIR /app
 RUN npm install -g @modelcontextprotocol/inspector
 
 # Expose port if needed (default 3000, adjust if different)
-EXPOSE 6277
+EXPOSE 6274
 
 # Run the MCP Inspector
 CMD ["npx", "@modelcontextprotocol/inspector"]
